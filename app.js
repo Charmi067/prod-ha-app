@@ -25,7 +25,7 @@ async function getMetadata(path) {
 app.get('/', async (req, res) => {
   const instanceId = await getMetadata('instance-id');
   const az = await getMetadata('placement/availability-zone');
-  res.send(`<h2>Served by instance ${instanceId} in ${az}</h2>`);
+  res.send(`<h2>Served by instance info ---- ${instanceId} in ${az}</h2>`);
 });
 
 app.get('/health', (req, res) => {
