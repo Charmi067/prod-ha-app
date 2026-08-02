@@ -2,7 +2,7 @@
 
 A production-style AWS infrastructure project featuring a multi-tier VPC, auto-scaling web tier behind a load balancer, a managed PostgreSQL database, automated CI/CD deployment, and disaster recovery via automated backups.
 
-![Architecture Diagram](screenshots/architecture-diagram.png)
+![Architecture Diagram](screenshots/PROD_HA_APP.drawio.png)
 
 ## Overview
 
